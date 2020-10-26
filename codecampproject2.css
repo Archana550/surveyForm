@@ -1,0 +1,32 @@
+
+#top-div{
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight: bold;
+    
+}
+input{
+  padding: 2%;
+}
+@media(min-width:420px){
+    .middle-div{
+        padding:10% 25% 10% 20%;
+    }
+}
+
+label {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+  }
+
+  *{
+    font-size:auto;
+  }
